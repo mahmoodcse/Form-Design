@@ -26,6 +26,11 @@ saveBtn.onclick = function(){
 
   profiles.push(person);
   localStorage.setItem("p",JSON.stringify(profiles));
+sId.value = "";
+sName.value = "";
+sEmail.value  = "";
+sDepartment.value = "";
+sDistrict.value = "";
   showdata();
 
 };
