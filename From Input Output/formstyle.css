@@ -1,0 +1,115 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.table{
+  height: 100%;
+  width: 100%;
+  background: gray;
+  position: fixed;
+}
+table{
+  background: green;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+
+caption{
+  font-size: 30px;
+}
+
+th{
+  padding: 10px;
+  border: 2px solid black;
+  background: orange;
+  border-radius: 10px;
+}
+
+
+td{
+  padding: 10px;
+  border: 2px solid brown;
+  background: ;
+}
+
+.add-btn, .edit-btn{
+  border: 1px solid green;
+  height: 30px;
+  width: 90px;
+  font-size: 18px;
+  border-radius: 8px;
+  background: #99fa;
+  cursor: pointer;
+}
+
+.add-btn:hover{
+
+}
+.display-show{
+  display: none;
+
+}
+.popup-details{
+  height: 100vh;
+  width: 100%;
+  background:rgba(2,5,6,.7);
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+
+}
+
+.details-head{
+  position: absolute;
+  top: 120px;
+  z-index: 1;
+  background: green;
+
+}
+
+.corner-close{
+  font-size: 20px;
+  position: absolute;
+  top:5px;
+  right: 5px;
+  z-index: 1;
+  height: 40px;
+  width: 40px
+}
+label{
+  color: orange;
+}
+
+input{
+   padding-top: 8px;
+   width: 200px;
+   border-radius: 5px;
+   font-size: 20px;
+}
+button{
+  height: 30px;
+  width: 70px;
+  border:2px solid orange;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media (max-height: 600px) {
+  .details-head{
+  position: absolute;
+  top: 50%;
+  left:5%;
+  z-index: 1;
+  background: green;
+}
+
+}
