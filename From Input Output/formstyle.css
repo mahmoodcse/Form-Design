@@ -38,7 +38,7 @@ td{
   background: ;
 }
 
-.add-btn, .edit-btn{
+button{
   border: 1px solid green;
   height: 30px;
   width: 90px;
@@ -46,11 +46,10 @@ td{
   border-radius: 8px;
   background: #99fa;
   cursor: pointer;
+  margin-top: 5px;
 }
 
-.add-btn:hover{
 
-}
 .display-show{
   display: none;
 
@@ -92,17 +91,12 @@ label{
 
 input{
    padding-top: 8px;
+   padding-left: 6px;
    width: 200px;
    border-radius: 5px;
-   font-size: 20px;
+   font-size: 13px;
 }
-button{
-  height: 30px;
-  width: 70px;
-  border:2px solid orange;
-  border-radius: 4px;
-  cursor: pointer;
-}
+
 @media (max-height: 600px) {
   .details-head{
   position: absolute;
